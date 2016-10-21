@@ -103,7 +103,7 @@ var map;    // declares a global map variable
 /*
 Start here! initializeMap() is called when page is loaded.
 */
-function initializeMap() {
+function initMap() {
 
   var locations;
 
@@ -226,7 +226,9 @@ function initializeMap() {
 
 
 // Calls the initializeMap() function when the page loads
-window.addEventListener('load', initializeMap);
+
+  window.addEventListener('load', initMap);
+
 
 window.addEventListener('resize', function(e) {
   //Make sure the map bounds get updated on page resize

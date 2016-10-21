@@ -45,7 +45,7 @@ var bio={
 		"location": "Tlemcen"
 	},
 	"skills":["Mathematics","Physics","Programming","Drummer",],
-	"welcomeMessage": "",
+	"welcomeMessage": "With the world moving as fast as it is, we need to become a society of people who are always learning new things.",
 	"biopic": "images/me.jpg"
 };
 var education={
@@ -157,5 +157,4 @@ education.display();
 bio.display();
 
 
-$("#main").append(internationalizeButton);
 $("#mapDiv").append(googleMap);
